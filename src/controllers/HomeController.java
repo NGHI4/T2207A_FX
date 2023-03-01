@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import sun.applet.Main;
 
 public class HomeController {
-    public static Stage rootStage;
+    public static Stage  rootStage;
 
     public void goToClasses(ActionEvent actionEvent) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("../resources/classes/list.fxml"));

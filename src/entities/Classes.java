@@ -31,9 +31,16 @@ public class Classes {
         this.room = room;
     }
 
+    @Override
+    public String toString() {
+        return this.getName();
+    }
+
     public Classes(Integer id, String name, String room){
         this.id = id;
         this.name = name;
         this.room = room;
+
+
     }
 }

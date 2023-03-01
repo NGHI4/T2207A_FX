@@ -26,14 +26,14 @@
       <Line endX="470.0" layoutX="115.0" layoutY="90.0" startX="-100.0" />
       <Button onAction="#goToHome" layoutX="24.0" layoutY="22.0" mnemonicParsing="false" style="-fx-background-color: purple;" text="&lt;&lt;Back" textFill="#f5e8e8" />
       <Button onAction="#goToCreate" layoutX="532.0" layoutY="22.0" mnemonicParsing="false" style="-fx-background-color: purple;" text="+" textFill="#e8e4e4" />
-      <TableView layoutX="15.0" layoutY="122.0" prefHeight="379.0" prefWidth="571.0" style="-fx-background-color: pink;">
+      <TableView fx:id="tbStudents" layoutX="15.0" layoutY="122.0" prefHeight="379.0" prefWidth="571.0" style="-fx-background-color: pink;">
         <columns>
-          <TableColumn prefWidth="38.0" text="ID" />
-          <TableColumn prefWidth="164.0" text="Ten" />
-            <TableColumn prefWidth="162.0" text="Email" />
-            <TableColumn prefWidth="78.0" text="NgaySinh" />
-            <TableColumn prefWidth="74.0" text="GioiTinh" />
-            <TableColumn prefWidth="54.0" text="LHID" />
+          <TableColumn fx:id="cId" prefWidth="38.0" text="ID" />
+          <TableColumn fx:id="cName" prefWidth="164.0" text="Ten" />
+            <TableColumn fx:id="cEmail" prefWidth="162.0" text="Email" />
+            <TableColumn fx:id="cBirthday" prefWidth="78.0" text="NgaySinh" />
+            <TableColumn fx:id="cGender" prefWidth="74.0" text="GioiTinh" />
+            <TableColumn fx:id="cClass_id" prefWidth="54.0" text="LHID" />
         </columns>
       </TableView>
    </children>

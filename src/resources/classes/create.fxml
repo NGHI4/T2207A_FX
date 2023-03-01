@@ -15,17 +15,17 @@
          </font>
       </Text>
       <Button onAction="#gotoClassList" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" style="-fx-background-color: purple;" text="&lt;&lt;Back" textFill="#e1d1d1" />
-      <TextField layoutX="116.0" layoutY="97.0" prefHeight="52.0" prefWidth="382.0" promptText="Class Name">
+      <TextField fx:id="txtName" layoutX="116.0" layoutY="97.0" prefHeight="52.0" prefWidth="382.0" promptText="Class Name">
          <font>
             <Font size="20.0" />
          </font>
       </TextField>
-      <TextField layoutX="116.0" layoutY="180.0" prefHeight="52.0" prefWidth="382.0" promptText="Room">
+      <TextField fx:id="txtRoom" layoutX="116.0" layoutY="180.0" prefHeight="52.0" prefWidth="382.0" promptText="Room">
          <font>
             <Font size="20.0" />
          </font>
       </TextField>
-      <Button layoutX="365.0" layoutY="254.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="145.0" style="-fx-background-color: purple;" text="Submit" textFill="#ebe2e2">
+      <Button onAction="#submit" layoutX="365.0" layoutY="254.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="145.0" style="-fx-background-color: purple;" text="Submit" textFill="#ebe2e2">
          <font>
             <Font size="19.0" />
          </font>
